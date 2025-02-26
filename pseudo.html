@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes Example</title>
+    <style>
+        /* Link styles */
+        a:visited {
+            color: purple;
+        }
+        a:hover {
+            color: red;
+        }
+
+        /* First paragraph bold */
+        p:first-child {
+            font-weight: bold;
+        }
+
+        /* Change background of input when focused */
+        input:focus {
+            background-color: lightyellow;
+        }
+
+        /* Odd list items in different color */
+        li:nth-child(odd) {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="#">Hover over me</a>
+
+    <p>This is the first paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <input type="text" placeholder="Focus me">
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+</body>
+</html>
